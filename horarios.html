@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta chartset="UTF-8">
+    <meta http-equiv="X-UA Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VILLA LOBOS</title>
+    <link rel="stylesheet" href="libreria/bootstrap/css/bootstrap.css">
+    <link rel="shortcut icon" href="img/guantes-de-boxeo.png">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: rgb(148, 0, 0);">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><strong><h5>VILLA LOBOS</h5></strong></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="horarios.html">Horarios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Accesorios.html">Accesorios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="registro.html">Inscribete</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Click</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Dietaalimenticia.html">Dieta Alimenticia</a></li>
+                            <li><a class="dropdown-item" href="contacto.html">Contacto</a></li>
+                            <li><a class="dropdown-item" href="tienda-online.html">Tienda Online</a></li>
+                        </ul>
+                    </li> 
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Carrusel-->
+    <div id="demo0" class="carousel slide" data-bs-ride="carousel">
+        <!--Indicadores/puntos-->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo0" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        </div>
+        <!--La presentacion de diapositivas/carrusel-->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/artmixtas.jpg" alt="ufcmma2" class="d-block" style="width:100%">
+                <div class="carousel-caption">
+                    <h3><strong style="background-color: red;">&nbsp;&nbsp;MMA&nbsp;&nbsp;</strong></h3>
+                    <p style="background-color: black;">"La disciplina es presionarte aun cuando nadie te ve, aun cuando no quieres seguir"</p>
+                    <button type="button" class="btn btn-outline-dark">Profesor Felipe</button>                   
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/boxing.jpg" alt="kickboxing" class="d-block" style="width:100%">
+                <div class="carousel-caption">
+                    <h3><strong style="background-color: red;">&nbsp;&nbsp;Kick Boxing &nbsp;&nbsp;</strong></h3>
+                    <p style="background-color: rgb(0, 0, 0);">"Seguir cuando crees que no puedes mas es lo que te hace diferente a los demas".</p>
+                    <button type="button" class="btn btn-outline-dark">Profesor Javier</button>       
+                </div>
+            </div>
+        </div>
+        <!--Controles/iconos izquierdo y derecho-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo0" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo0" data-bs-slide="prev">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <br>
+    <div class="container mt-2">
+        <div class="card text-white" style="background-color: rgb(153, 4, 4);">
+            <div class="card-body">
+                <h5>
+                En esta seccion te invitamos a ver un poco mas de lo que es la pratica del boxeo, tambien podras admirar los horarios de clases y 
+                mucha mas informacion de este deporte.
+                Mostraremos una tabla donde te invitamos a ver los horarios de clases en diferentes horas y las diferentes ramas del boxeo.
+                </h5>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-3">
+        <br>
+        <table class="table table-bordered table-sm">
+            <thead>
+                <tr class="table-dark">
+                    <th class="text-center text-white"><h2><strong>HORARIO</h2></strong></th>
+                    <th class="text-center text-white"><h2><strong>LUNES A VIERNES</h2></strong></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="table" style="background-color:rgb(153, 4, 4);">
+                    <td class="text-center text-white"><h2><strong>16:00 - 17:00</strong></h2></td>
+                    <td class="text-center text-white"><h2><strong>Kick boxing</strong></h2></td>
+                </tr>
+                <tr class="table-dark"> 
+                    <td class="text-center text-white"><h2><strong>17:00 - 18:00</strong></h2> </td>
+                    <td class="text-center text-white"><h2><strong>kick Boxing-Funcional</strong></h2></td>
+                </tr>
+                <tr class="table" style="background-color: rgb(153, 4, 4);">
+                    <td class="text-center text-white"><h2><strong>18:00 - 19:00</strong></h2></td>
+                    <td class="text-center text-white"><h2><strong>MMA-Funcional</strong></h2></td>
+                </tr>
+                <tr class="table-dark">
+                    <td class="text-center text-white"><h2><strong>19:00 - 20:00</strong></h2></td>
+                    <td class="text-center text-white"><h2><strong>KickBoxing-Funcional</strong></h2></td>
+                </tr>
+                <tr class="table" style="background-color: rgb(153, 4, 4);">
+                    <td class="text-center text-white"><h2><strong>20:00 - 21:00</strong></h2></td>
+                    <td class="text-center text-white"><h2><strong>MMA</strong></h2></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container mt-2">
+        <div class="card text-white" style="background-color: rgb(153, 4, 4);">
+            <div class="card-body">
+                <h3 class="text-center">Tipos de Ejercicios del Kickboxing</h3>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="p-2">
+        <div class="row justify-content-center text-center text-white">
+            <div class="card" style="background-color: rgb(24, 24, 24); width:280px">
+                <br>
+                <img src="img/icon1.jpg" class="mx-auto d-block" alt="icon1" width="200" height="210">
+                <div class="card-body" style="background-color: rgb(24, 24, 24);">
+                    <h4 class="card-title text-center">JAB</h4>
+                    <p class="card-text">Un golpe directo lanzado con el puño delantero, rápido y preciso.</p>
+                </div>
+            </div>
+            &nbsp;&nbsp;
+            <div class="card" style=" background-color: rgb(153, 4, 4); width:280px">
+                <br>
+                <img src="img/icon2.jpg" class="mx-auto d-block" alt="icon2" width="200" height="210">
+                <div class="card-body" style="background-color: rgb(153, 4, 4);">
+                    <h4 class="card-title text-center">CROSS</h4>
+                    <p class="card-text">Un golpe directo con el puño trasero, aprovechando el giro del cuerpo para mayor potencia. </p>
+                </div>
+            </div>
+            &nbsp;&nbsp;
+            <div class="card" style="background-color: rgb(24, 24, 24); width:280px">
+                <br>
+                <img src="img/icon3.jpg" class="mx-auto d-block" alt="icon3" width="200" height="210">
+                <div class="card-body" style="background-color: rgb(24, 24, 24);">
+                    <h4 class="card-title text-center">HOOK</h4>
+                    <p class="card-text">Un golpe circular lanzado con el codo en ángulo, generalmente hacia la mandíbula del oponente.</p>
+                </div>
+            </div>
+            &nbsp;&nbsp;
+            <div class="card" style=" background-color: rgb(153, 4, 4); width:280px">
+                <br>
+                <img src="img/icon4.jpg" class="mx-auto d-block" alt="icon4" width="200" height="210">
+                <div class="card-body" style="background-color: rgb(153, 4, 4);">
+                    <h4 class="card-title text-center">UPPERCUT</h4>
+                    <p class="card-text">Un golpe ascendente dirigido hacia la barbilla del oponente. </p>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <br>
+    <div class="p-2">
+        <div class="row justify-content-center text-center text-white">
+            <div class="card" style="background-color: rgb(24, 24, 24); width:280px">
+                <br>
+                <img src="img/icon5.jpg" class="mx-auto d-block" alt="icon5" width="200" height="210">
+                <div class="card-body" style="background-color: rgb(24, 24, 24);">
+                    <h4 class="card-title text-center">ROUNDHOUSE KICK</h4>
+                    <p class="card-text">Una patada con el empeine o la espinilla, lanzada en un arco lateral hacia el torso
+                     o la cabeza del oponente.</p>
+                </div>
+            </div>
+            &nbsp;&nbsp;
+            <div class="card" style=" background-color: rgb(153, 4, 4); width:280px">
+                <br>
+                <img src="img/icon6.jpg" class="mx-auto d-block" alt="icon6" width="200" height="210">
+                <div class="card-body" style="background-color: rgb(153, 4, 4);">
+                    <h4 class="card-title text-center">FRONT KICK</h4>
+                    <p class="card-text">UUna patada recta lanzada hacia adelante con la planta del pie o el empeine.</p>
+                </div>
+            </div>
+            &nbsp;&nbsp;
+            <div class="card" style="background-color: rgb(24, 24, 24); width:280px">
+                <br>
+                <img src="img/icon7.jpg" class="mx-auto d-block" alt="icon7" width="200" height="210">
+                <div class="card-body" style="background-color: rgb(24, 24, 24);">
+                    <h4 class="card-title text-center">SIDE KICK</h4>
+                    <p class="card-text">Una patada que se lanza lateralmente, golpeando con el talón o el borde del pie.</p>
+                </div>
+            </div>
+            &nbsp;&nbsp;
+            <div class="card" style=" background-color: rgb(153, 4, 4); width:280px">
+                <br>
+                <img src="img/icon8.jpg" class="mx-auto d-block" alt="icon8" width="200" height="210">
+                <div class="card-body" style="background-color: rgb(153, 4, 4);">
+                    <h4 class="card-title text-center">SPINNING BACK FIST</h4>
+                    <p class="card-text">Un golpe en el que se usa el puño tras un giro completo del cuerpo.</p>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <div class="container mt-2">
+        <div class="card text-white" style="background-color: rgb(153, 4, 4);">
+            <div class="card-body">
+                <h3 class="text-center">Tipos de Ejercicios del MMA</h3>
+            </div>
+        </div>
+    </div>
+    <br>
+    <h3 class="text-center"><strong>ENTRENAMIENTO DE TECNICA</strong></h3>
+    <br>
+    <div class="p-2">
+        <div class="row justify-content-center text-center text-white">
+            <div class="card" style="background-color: rgb(24, 24, 24); width:280px">
+                <br>
+                <img src="img/mma1.webp" class="mx-auto d-block" alt="mma1" width="200" height="210">
+                <div class="card-body" style="background-color: rgb(24, 24, 24);">
+                    <h4 class="card-title text-center">SPARRING</h4>
+                    <p class="card-text">Combate simulado con un compañero para practicar técnicas en un entorno controlado.</p>
+                </div>
+            </div>
+            &nbsp;&nbsp;
+            <div class="card" style=" background-color: rgb(153, 4, 4); width:280px">
+                <br>
+                <img src="img/mma2.jpg" class="mx-auto d-block" alt="mma2" width="200" height="210">
+                <div class="card-body" style="background-color: rgb(153, 4, 4);">
+                    <h4 class="card-title text-center">SHADOW BOXING</h4>
+                    <p class="card-text">Lanzar golpes y patadas al aire, practicando movimientos sin un oponente.</p>
+                </div>
+            </div>
+            &nbsp;&nbsp;
+            <div class="card" style="background-color: rgb(24, 24, 24); width:280px">
+                <br>
+                <img src="img/mma3.jpg" class="mx-auto d-block" alt="mma3" width="200" height="210">
+                <div class="card-body" style="background-color: rgb(24, 24, 24);">
+                    <h4 class="card-title text-center">DRILLS ESPECIFICOS</h4>
+                    <p class="card-text">Repetición de técnicas como derribos, sumisiones o defensas específicas.</p>
+                </div>
+            </div>
+            &nbsp;&nbsp;
+            <div class="card" style=" background-color: rgb(153, 4, 4); width:280px">
+                <br>
+                <img src="img/mma4.jpg" class="mx-auto d-block" alt="mma4" width="200" height="210">
+                <div class="card-body" style="background-color: rgb(153, 4, 4);">
+                    <h3 class="card-title text-center">GOLPEO CON ALMOHADILLAS</h3>
+                    <p class="card-text">Trabajar técnicas de puñetazos, patadas, codos y rodillas.</p>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <br>
+    <h3 class="text-center"><strong>ENTRENAMIENTO DE GRAPPLING Y SUMISION</strong></h3>
+    <br>
+    <div class="p-3">
+        <div class="row justify-content-center text-center text-white">
+            <div class="card" style="background-color: rgb(24, 24, 24); width:280px">
+                <br>
+                <img src="img/mma5.jpg" class="mx-auto d-block" alt="mma5" width="200" height="210">
+                <div class="card-body" style="background-color: rgb(24, 24, 24);">
+                    <h4 class="card-title text-center">LUCHA (WRESTLING)</h4>
+                    <p class="card-text">Ejercicios para practicar derribos, control en el suelo y escapes.</p>
+                </div>
+            </div>
+            &nbsp;&nbsp;
+            <div class="card" style=" background-color: rgb(153, 4, 4); width:280px">
+                <br>
+                <img src="img/mma6.webp" class="mx-auto d-block" alt="mma6" width="200" height="210">
+                <div class="card-body" style="background-color: rgb(153, 4, 4);">
+                    <h4 class="card-title text-center">JIU-JITSU BRASILEÑO (BJJ)</h4>
+                    <p class="card-text">Drills para sumisiones, escapes y trabajo de guardia.</p>
+                </div>
+            </div>
+            &nbsp;&nbsp;
+            <div class="card" style="background-color: rgb(24, 24, 24); width:280px">
+                <br>
+                <img src="img/mma7.webp" class="mx-auto d-block" alt="mma7" width="200" height="210">
+                <div class="card-body" style="background-color: rgb(24, 24, 24);">
+                    <h4 class="card-title text-center">JUDO</h4>
+                    <p class="card-text">Practicar proyecciones y control en el suelo.</p>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <br>
+    <h3 class="text-center"><strong>ENTRENAMIENTO DE FUERZA</strong></h3>
+    <br>
+    <div class="p-3">
+        <div class="row justify-content-center text-center text-white">
+            <div class="card" style="background-color: rgb(24, 24, 24); width:280px">
+                <br>
+                <img src="img/mma8.jpg" class="mx-auto d-block" alt="mma8" width="200" height="210">
+                <div class="card-body" style="background-color: rgb(24, 24, 24);">
+                    <h4 class="card-title text-center">LEVANTAMIENTO DE PESAS</h4>
+                    <p class="card-text">Ejercicios como sentadillas, peso muerto, press de banca para mejorar fuerza general.</p>
+                </div>
+            </div>
+            &nbsp;&nbsp;
+            <div class="card" style=" background-color: rgb(153, 4, 4); width:280px">
+                <br>
+                <img src="img/mma9.png" class="mx-auto d-block" alt="mma9" width="200" height="210">
+                <div class="card-body" style="background-color: rgb(153, 4, 4);">
+                    <h4 class="card-title text-center">KETTLEBELL SWINGS</h4>
+                    <p class="card-text">Ejercicio con pesas rusas para trabajar fuerza explosiva y resistencia muscular.</p>
+                </div>
+            </div>
+            &nbsp;&nbsp;
+            <div class="card" style="background-color: rgb(24, 24, 24); width:280px">
+                <br>
+                <img src="img/mma10.avif" class="mx-auto d-block" alt="mma10" width="200" height="210">
+                <div class="card-body" style="background-color: rgb(24, 24, 24);">
+                    <h4 class="card-title text-center">CARGADAS OLIMPICAS</h4>
+                    <p class="card-text">Movimientos explosivos para desarrollar fuerza y potencia.</p>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <br>
+    <h3 class="text-center"><strong>ENTRENAMIENTO DE ACONDICIONAMIENTO</strong></h3>
+    <br>
+    <div class="p-2">
+        <div class="row justify-content-center text-center text-white">
+            <div class="card" style="background-color: rgb(24, 24, 24); width:280px">
+                <br>
+                <img src="img/mma11e.avif" class="mx-auto d-block" alt="mma11e" width="200" height="210">
+                <div class="card-body" style="background-color: rgb(24, 24, 24);">
+                    <h4 class="card-title text-center">Entrenamiento en intervalos de alta intensidad (HIIT)</h4>
+                    <p class="card-text">Circuitos de alta intensidad con ejercicios como sprints, burpees o saltos para mejorar el cardio.</p>
+                </div>
+            </div>
+            &nbsp;&nbsp;
+            <div class="card" style=" background-color: rgb(153, 4, 4); width:280px">
+                <br>
+                <img src="img/mma12.webp" class="mx-auto d-block" alt="mma12" width="200" height="210">
+                <div class="card-body" style="background-color: rgb(153, 4, 4);">
+                    <h4 class="card-title text-center">Entrenamiento con cuerda de batalla (Battle Ropes)</h4>
+                    <p class="card-text">Ejercicio para trabajar la resistencia muscular y cardiovascular.</p>
+                </div>
+            </div>
+            &nbsp;&nbsp;
+            <div class="card" style="background-color: rgb(24, 24, 24); width:280px">
+                <br>
+                <img src="img/mma13.jpg" class="mx-auto d-block" alt="mma13" width="200" height="210">
+                <div class="card-body" style="background-color: rgb(24, 24, 24);">
+                    <h4 class="card-title text-center">Correr o trotar</h4>
+                    <p class="card-text">Para mejorar la resistencia aeróbica y anaeróbica.</p>
+                </div>
+            </div>
+            &nbsp;&nbsp;
+            <div class="card" style=" background-color: rgb(153, 4, 4); width:280px">
+                <br>
+                <img src="img/mma14.jpg" class="mx-auto d-block" alt="mma14" width="200" height="210">
+                <div class="card-body" style="background-color: rgb(153, 4, 4);">
+                    <h3 class="card-title text-center">Sprints con resistencia</h3>
+                    <p class="card-text"> Ejercicios con paracaídas o trineo para mejorar la explosividad y la velocidad.</p>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <br>
+    <h3 class="text-center"><strong>ENTRENAMIENTO DE FLEXIBILIDAD Y MOVILIDAD</strong></h3>
+    <br>
+    <div class="p-3">
+        <div class="row justify-content-center text-center text-white">
+            <div class="card" style="background-color: rgb(24, 24, 24); width:280px">
+                <br>
+                <img src="img/mma15.jpg" class="mx-auto d-block" alt="mma15" width="200" height="210">
+                <div class="card-body" style="background-color: rgb(24, 24, 24);">
+                    <h4 class="card-title text-center">Estiramientos dinámicos</h4>
+                    <p class="card-text">Movimientos activos para preparar los músculos antes de entrenar.</p>
+                </div>
+            </div>
+            &nbsp;&nbsp;
+            <div class="card" style=" background-color: rgb(153, 4, 4); width:280px">
+                <br>
+                <img src="img/mma16.jpg" class="mx-auto d-block" alt="mma16" width="200" height="210">
+                <div class="card-body" style="background-color: rgb(153, 4, 4);">
+                    <h4 class="card-title text-center">Yoga o movilidad funcional</h4>
+                    <p class="card-text">Para mejorar la flexibilidad y prevenir lesiones.</p>
+                </div>
+            </div>
+            &nbsp;&nbsp;
+            <div class="card" style="background-color: rgb(24, 24, 24); width:280px">
+                <br>
+                <img src="img/mma17.jpeg" class="mx-auto d-block" alt="mma17" width="200" height="210">
+                <div class="card-body" style="background-color: rgb(24, 24, 24);">
+                    <h4 class="card-title text-center">Foam Rolling (rodillo de espuma)</h4>
+                    <p class="card-text"> Para liberar tensión muscular y mejorar la recuperación.</p>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <br>
+    <h3 class="text-center"><strong>TRABAJO EN EL CLINCH Y CARDIO EN EL COMBATE</strong></h3>
+    <br>
+    <div class="p-2">
+        <div class="row justify-content-center text-center text-white">
+            <div class="card" style="background-color: rgb(24, 24, 24); width:280px">
+                <br>
+                <img src="img/mma18.jpg" class="mx-auto d-block" alt="mma18" width="200" height="210">
+                <div class="card-body" style="background-color: rgb(24, 24, 24);">
+                    <h4 class="card-title text-center">EJERCICIOS DE CLINCH</h4>
+                    <p class="card-text"> Entrenamientos enfocados en la pelea en distancia corta, utilizando técnicas de lucha para controlar al oponente.</p>
+                </div>
+            </div>
+            &nbsp;&nbsp;
+            <div class="card" style=" background-color: rgb(153, 4, 4); width:280px">
+                <br>
+                <img src="img/mma19.jpg" class="mx-auto d-block" alt="mma19" width="200" height="210">
+                <div class="card-body" style="background-color: rgb(153, 4, 4);">
+                    <h4 class="card-title text-center">RODILLAZOS Y CODOS EN CLICH</h4>
+                    <p class="card-text">Practicar golpes con las rodillas y los codos desde el clinch.</p>
+                </div>
+            </div>
+            &nbsp;&nbsp;
+            <div class="card" style="background-color: rgb(24, 24, 24); width:280px">
+                <br>
+                <img src="img/mma20.jpg" class="mx-auto d-block" alt="mma20" width="200" height="210">
+                <div class="card-body" style="background-color: rgb(24, 24, 24);">
+                    <h4 class="card-title text-center">ENTRENAMIENTOS EN CUERDAS</h4>
+                    <p class="card-text">Saltar la cuerda para mejorar el trabajo de pies y la resistencia cardiovascular.</p>
+                </div>
+            </div>
+            &nbsp;&nbsp;
+            <div class="card" style=" background-color: rgb(153, 4, 4); width:280px">
+                <br>
+                <img src="img/mma21.png" class="mx-auto d-block" alt="mma21" width="200" height="210">
+                <div class="card-body" style="background-color: rgb(153, 4, 4);">
+                    <h3 class="card-title text-center">BURPEES Y BOX JUMPS</h3>
+                    <p class="card-text">Ejercicios explosivos que combinan resistencia y agilidad.</p>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <br>
+    <script src="libreria/jquery/jquery.js"></script>    
+    <script src="libreria/bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
